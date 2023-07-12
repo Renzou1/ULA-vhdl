@@ -1,0 +1,20 @@
+ENTITY somadorcompleto IS
+	Port(
+		a1: in bit;
+		b1: in bit;
+		c1: in bit;
+		
+		s1: out bit;
+		c2: out bit
+	);
+END somadorcompleto;
+
+arquitecture arq_somadorcompleto of somadorcompleto IS
+
+BEGIN
+
+	s1 <= c1 xor a1 xor b1;
+	
+	c2 <= (a1 and b1) or (a1 and c1) or (b1 and c1);
+	
+END arq_somadorcompleto;

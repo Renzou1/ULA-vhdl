@@ -1,0 +1,41 @@
+ENTITY AsubB IS
+	port(
+	A: in bit_vector (3 downto 0);
+	B: in bit_vector (3 downto 0);
+	S: out bit_vector (3 downto 0);
+	Overflow: out bit
+		);
+END AsubB;
+
+architecture arch_AsubB OF AsubB IS
+
+SIGNAL cFIO, cFIO1, cFIO2, cFIO3, Cout1, Cout2, bFIO0, bFIO1, bFIO2, bFIO3: bit; 
+
+COMPONENT MeioSomador
+	PORT(
+		a, b: in bit;
+		sum, carry: out bit
+	);
+END COMPONENT;
+
+COMPONENT SomadorCompleto
+	port(
+	A, B, Cin: in bit;
+	Cout, Sout: out bit
+		);
+END COMPONENT;
+
+BEGIN
+	
+	SomadorCompleto0: SomadorCompleto
+	port map(a => A(0), b => bFIO0, Cin => '1', Sout => S(0), Cout => cFIO0);
+	SomadorCompleto1: SomadorCompleto
+		port map(a => A(1), b => bFIO1, Cin => cFIO, Sout => S(1), Cout => cFIO1);
+	SomadorCompleto2: SomadorCompleto
+		port map(a => A(2), b => bFIO2, Cin => cFIO1, Sout => S(2), Cout => cFIO2);
+	SomadorCompleto3: SomadorCompleto
+		port map(a => A(3), b => bFIO3, Cin => cFIO2, Sout => S(3), Cout => cFIO3);
+		
+	--Overflow <=  (A(2) or B(2)) and cFIO;
+
+END arch_AsubB;

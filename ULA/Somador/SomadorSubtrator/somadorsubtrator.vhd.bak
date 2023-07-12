@@ -1,0 +1,13 @@
+ENTITY somadorsubtrator IS
+	Port(
+	);
+END somadorsubtrator;
+
+architecture arch_somadorsubtrator OF somadorsubtrator IS
+
+COMPONENT somadorcompleto
+
+BEGIN
+	
+END arch_somadorsubtrator;
+	

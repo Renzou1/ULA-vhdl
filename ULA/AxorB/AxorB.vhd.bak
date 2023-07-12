@@ -1,0 +1,16 @@
+ENTITY AxorB IS
+	Port(
+		A: in bit_vector (3 downto 0);
+		B: in bit_vector (3 downto 0);
+		
+		S: out bit_vector (3 downto 0)
+	);
+END AxorB;
+
+architecture arch_AxorB of axorB IS
+BEGIN
+	S(0) <= A(0) xor B(0);
+	S(1) <= A(1) xor B(1);
+	S(2) <= A(2) xor B(2);
+	S(3) <= A(3) xor B(3);
+END arch_AxorB;

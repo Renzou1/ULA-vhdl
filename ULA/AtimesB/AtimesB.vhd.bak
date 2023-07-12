@@ -1,0 +1,25 @@
+ENTITY AtimesB is
+	port(
+		AtimesB_INPUTA: in bit_vector (3 downto 0);
+		AtimesB_INPUTB: in bit_vector (3 downto 0);
+		AtimesB_S: out bit_vector (3 downto 0);
+		OverflowAtimesB: out bit
+		
+		);
+		
+architecture arch_AtimesB of AtimesB IS
+Signal 
+
+COMPONENT SomadorBinario
+	port(
+	A: in bit_vector (3 downto 0);
+	B: in bit_vector (3 downto 0);
+	S: out bit_vector (3 downto 0);
+	OverflowSoma: out bit
+		);
+END COMPONENT;
+BEGIN
+
+	AtimesB_S(0) <= AtimesB_INPUTA(0) and AtimesB_INPUTB(0);
+	
+END arch_AtimesB;
