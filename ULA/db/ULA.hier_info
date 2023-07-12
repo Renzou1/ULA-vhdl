@@ -1,0 +1,939 @@
+|ULA
+ULAA[0] => AandB:AandB0.andINPUTA[0]
+ULAA[0] => AorB:AorB0.orINPUTA[0]
+ULAA[0] => AsubB:AsubB0.subINPUTA[0]
+ULAA[0] => AxorB:AxorB0.xorINPUTA[0]
+ULAA[0] => leftA:leftA0.leftA_INPUTA[0]
+ULAA[0] => leftB:leftB0.leftB_INPUTA[0]
+ULAA[0] => notA:notA0.notINPUTA[0]
+ULAA[0] => notB:notB0.notINPUTA[0]
+ULAA[0] => SomadorBinario:SomadorBinario0.A[0]
+ULAA[0] => AtimesB:AtimesB0.AtimesB_INPUTA[0]
+ULAA[1] => AandB:AandB0.andINPUTA[1]
+ULAA[1] => AorB:AorB0.orINPUTA[1]
+ULAA[1] => AsubB:AsubB0.subINPUTA[1]
+ULAA[1] => AxorB:AxorB0.xorINPUTA[1]
+ULAA[1] => leftA:leftA0.leftA_INPUTA[1]
+ULAA[1] => leftB:leftB0.leftB_INPUTA[1]
+ULAA[1] => notA:notA0.notINPUTA[1]
+ULAA[1] => notB:notB0.notINPUTA[1]
+ULAA[1] => SomadorBinario:SomadorBinario0.A[1]
+ULAA[1] => AtimesB:AtimesB0.AtimesB_INPUTA[1]
+ULAA[2] => AandB:AandB0.andINPUTA[2]
+ULAA[2] => AorB:AorB0.orINPUTA[2]
+ULAA[2] => AsubB:AsubB0.subINPUTA[2]
+ULAA[2] => AxorB:AxorB0.xorINPUTA[2]
+ULAA[2] => leftA:leftA0.leftA_INPUTA[2]
+ULAA[2] => leftB:leftB0.leftB_INPUTA[2]
+ULAA[2] => notA:notA0.notINPUTA[2]
+ULAA[2] => notB:notB0.notINPUTA[2]
+ULAA[2] => SomadorBinario:SomadorBinario0.A[2]
+ULAA[2] => AtimesB:AtimesB0.AtimesB_INPUTA[2]
+ULAA[3] => AandB:AandB0.andINPUTA[3]
+ULAA[3] => AorB:AorB0.orINPUTA[3]
+ULAA[3] => AsubB:AsubB0.subINPUTA[3]
+ULAA[3] => AxorB:AxorB0.xorINPUTA[3]
+ULAA[3] => leftA:leftA0.leftA_INPUTA[3]
+ULAA[3] => leftB:leftB0.leftB_INPUTA[3]
+ULAA[3] => notA:notA0.notINPUTA[3]
+ULAA[3] => notB:notB0.notINPUTA[3]
+ULAA[3] => SomadorBinario:SomadorBinario0.A[3]
+ULAA[3] => AtimesB:AtimesB0.AtimesB_INPUTA[3]
+ULAB[0] => AandB:AandB0.andINPUTB[0]
+ULAB[0] => AorB:AorB0.orINPUTB[0]
+ULAB[0] => AsubB:AsubB0.subINPUTB[0]
+ULAB[0] => AxorB:AxorB0.xorINPUTB[0]
+ULAB[0] => leftA:leftA0.lefA_INPUTB[0]
+ULAB[0] => leftB:leftB0.leftB_INPUTB[0]
+ULAB[0] => notA:notA0.notINPUTB[0]
+ULAB[0] => notB:notB0.notINPUTB[0]
+ULAB[0] => SomadorBinario:SomadorBinario0.B[0]
+ULAB[0] => AtimesB:AtimesB0.AtimesB_INPUTB[0]
+ULAB[1] => AandB:AandB0.andINPUTB[1]
+ULAB[1] => AorB:AorB0.orINPUTB[1]
+ULAB[1] => AsubB:AsubB0.subINPUTB[1]
+ULAB[1] => AxorB:AxorB0.xorINPUTB[1]
+ULAB[1] => leftA:leftA0.lefA_INPUTB[1]
+ULAB[1] => leftB:leftB0.leftB_INPUTB[1]
+ULAB[1] => notA:notA0.notINPUTB[1]
+ULAB[1] => notB:notB0.notINPUTB[1]
+ULAB[1] => SomadorBinario:SomadorBinario0.B[1]
+ULAB[1] => AtimesB:AtimesB0.AtimesB_INPUTB[1]
+ULAB[2] => AandB:AandB0.andINPUTB[2]
+ULAB[2] => AorB:AorB0.orINPUTB[2]
+ULAB[2] => AsubB:AsubB0.subINPUTB[2]
+ULAB[2] => AxorB:AxorB0.xorINPUTB[2]
+ULAB[2] => leftA:leftA0.lefA_INPUTB[2]
+ULAB[2] => leftB:leftB0.leftB_INPUTB[2]
+ULAB[2] => notA:notA0.notINPUTB[2]
+ULAB[2] => notB:notB0.notINPUTB[2]
+ULAB[2] => SomadorBinario:SomadorBinario0.B[2]
+ULAB[2] => AtimesB:AtimesB0.AtimesB_INPUTB[2]
+ULAB[3] => AandB:AandB0.andINPUTB[3]
+ULAB[3] => AorB:AorB0.orINPUTB[3]
+ULAB[3] => AsubB:AsubB0.subINPUTB[3]
+ULAB[3] => AxorB:AxorB0.xorINPUTB[3]
+ULAB[3] => leftA:leftA0.lefA_INPUTB[3]
+ULAB[3] => leftB:leftB0.leftB_INPUTB[3]
+ULAB[3] => notA:notA0.notINPUTB[3]
+ULAB[3] => notB:notB0.notINPUTB[3]
+ULAB[3] => SomadorBinario:SomadorBinario0.B[3]
+ULAB[3] => AtimesB:AtimesB0.AtimesB_INPUTB[3]
+Controle[0] => multiplex:multiplex0.controle[0]
+Controle[0] => multiplex2:multiplex02.controle[0]
+Controle[1] => multiplex:multiplex0.controle[1]
+Controle[1] => multiplex2:multiplex02.controle[1]
+Controle[2] => multiplex:multiplex0.controle[2]
+Controle[2] => multiplex2:multiplex02.controle[2]
+Controle[3] => multiplex:multiplex0.controle[3]
+Controle[3] => multiplex2:multiplex02.controle[3]
+Saida[0] <= Mux6.DB_MAX_OUTPUT_PORT_TYPE
+Saida[1] <= Mux5.DB_MAX_OUTPUT_PORT_TYPE
+Saida[2] <= Mux4.DB_MAX_OUTPUT_PORT_TYPE
+Saida[3] <= Mux3.DB_MAX_OUTPUT_PORT_TYPE
+Saida[4] <= Mux2.DB_MAX_OUTPUT_PORT_TYPE
+Saida[5] <= Mux1.DB_MAX_OUTPUT_PORT_TYPE
+Saida[6] <= Mux0.DB_MAX_OUTPUT_PORT_TYPE
+Saida[7] <= multiplex:multiplex0.multiplexS[3]
+Saida[8] <= <VCC>
+Saida[9] <= <VCC>
+Saida[10] <= <VCC>
+Saida[11] <= <VCC>
+Saida[12] <= <VCC>
+Saida[13] <= <VCC>
+V <= multiplex2:multiplex02.multiplex2S
+Z <= Mux7.DB_MAX_OUTPUT_PORT_TYPE
+N <= multiplex:multiplex0.multiplexS[3]
+
+
+|ULA|AandB:AandB0
+andINPUTA[0] => andS.IN0
+andINPUTA[1] => andS.IN0
+andINPUTA[2] => andS.IN0
+andINPUTA[3] => andS.IN0
+andINPUTB[0] => andS.IN1
+andINPUTB[1] => andS.IN1
+andINPUTB[2] => andS.IN1
+andINPUTB[3] => andS.IN1
+andS[0] <= andS.DB_MAX_OUTPUT_PORT_TYPE
+andS[1] <= andS.DB_MAX_OUTPUT_PORT_TYPE
+andS[2] <= andS.DB_MAX_OUTPUT_PORT_TYPE
+andS[3] <= andS.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ULA|AorB:AorB0
+orINPUTA[0] => orS.IN0
+orINPUTA[1] => orS.IN0
+orINPUTA[2] => orS.IN0
+orINPUTA[3] => orS.IN0
+orINPUTB[0] => orS.IN1
+orINPUTB[1] => orS.IN1
+orINPUTB[2] => orS.IN1
+orINPUTB[3] => orS.IN1
+orS[0] <= orS.DB_MAX_OUTPUT_PORT_TYPE
+orS[1] <= orS.DB_MAX_OUTPUT_PORT_TYPE
+orS[2] <= orS.DB_MAX_OUTPUT_PORT_TYPE
+orS[3] <= orS.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ULA|AsubB:AsubB0
+subINPUTA[0] => SomadorCompleto:SomadorCompleto0.A
+subINPUTA[1] => SomadorCompleto:SomadorCompleto1.A
+subINPUTA[2] => SomadorCompleto:SomadorCompleto2.A
+subINPUTA[3] => SomadorCompleto:SomadorCompleto3.A
+subINPUTB[0] => SomadorCompleto:SomadorCompleto0.B
+subINPUTB[1] => SomadorCompleto:SomadorCompleto1.B
+subINPUTB[2] => SomadorCompleto:SomadorCompleto2.B
+subINPUTB[3] => SomadorCompleto:SomadorCompleto3.B
+subS[0] <= SomadorCompleto:SomadorCompleto0.Sout
+subS[1] <= SomadorCompleto:SomadorCompleto1.Sout
+subS[2] <= SomadorCompleto:SomadorCompleto2.Sout
+subS[3] <= SomadorCompleto:SomadorCompleto3.Sout
+OverflowSub <= OverflowSub.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ULA|AsubB:AsubB0|SomadorCompleto:SomadorCompleto0
+A => MeioSomador:MeioSomador1.a
+B => MeioSomador:MeioSomador1.b
+Cin => MeioSomador:MeioSomador2.b
+Cout <= Cout.DB_MAX_OUTPUT_PORT_TYPE
+Sout <= MeioSomador:MeioSomador2.sum
+
+
+|ULA|AsubB:AsubB0|SomadorCompleto:SomadorCompleto0|MeioSomador:MeioSomador1
+a => sum.IN0
+a => carry.IN0
+b => sum.IN1
+b => carry.IN1
+sum <= sum.DB_MAX_OUTPUT_PORT_TYPE
+carry <= carry.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ULA|AsubB:AsubB0|SomadorCompleto:SomadorCompleto0|MeioSomador:MeioSomador2
+a => sum.IN0
+a => carry.IN0
+b => sum.IN1
+b => carry.IN1
+sum <= sum.DB_MAX_OUTPUT_PORT_TYPE
+carry <= carry.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ULA|AsubB:AsubB0|SomadorCompleto:SomadorCompleto1
+A => MeioSomador:MeioSomador1.a
+B => MeioSomador:MeioSomador1.b
+Cin => MeioSomador:MeioSomador2.b
+Cout <= Cout.DB_MAX_OUTPUT_PORT_TYPE
+Sout <= MeioSomador:MeioSomador2.sum
+
+
+|ULA|AsubB:AsubB0|SomadorCompleto:SomadorCompleto1|MeioSomador:MeioSomador1
+a => sum.IN0
+a => carry.IN0
+b => sum.IN1
+b => carry.IN1
+sum <= sum.DB_MAX_OUTPUT_PORT_TYPE
+carry <= carry.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ULA|AsubB:AsubB0|SomadorCompleto:SomadorCompleto1|MeioSomador:MeioSomador2
+a => sum.IN0
+a => carry.IN0
+b => sum.IN1
+b => carry.IN1
+sum <= sum.DB_MAX_OUTPUT_PORT_TYPE
+carry <= carry.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ULA|AsubB:AsubB0|SomadorCompleto:SomadorCompleto2
+A => MeioSomador:MeioSomador1.a
+B => MeioSomador:MeioSomador1.b
+Cin => MeioSomador:MeioSomador2.b
+Cout <= Cout.DB_MAX_OUTPUT_PORT_TYPE
+Sout <= MeioSomador:MeioSomador2.sum
+
+
+|ULA|AsubB:AsubB0|SomadorCompleto:SomadorCompleto2|MeioSomador:MeioSomador1
+a => sum.IN0
+a => carry.IN0
+b => sum.IN1
+b => carry.IN1
+sum <= sum.DB_MAX_OUTPUT_PORT_TYPE
+carry <= carry.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ULA|AsubB:AsubB0|SomadorCompleto:SomadorCompleto2|MeioSomador:MeioSomador2
+a => sum.IN0
+a => carry.IN0
+b => sum.IN1
+b => carry.IN1
+sum <= sum.DB_MAX_OUTPUT_PORT_TYPE
+carry <= carry.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ULA|AsubB:AsubB0|SomadorCompleto:SomadorCompleto3
+A => MeioSomador:MeioSomador1.a
+B => MeioSomador:MeioSomador1.b
+Cin => MeioSomador:MeioSomador2.b
+Cout <= Cout.DB_MAX_OUTPUT_PORT_TYPE
+Sout <= MeioSomador:MeioSomador2.sum
+
+
+|ULA|AsubB:AsubB0|SomadorCompleto:SomadorCompleto3|MeioSomador:MeioSomador1
+a => sum.IN0
+a => carry.IN0
+b => sum.IN1
+b => carry.IN1
+sum <= sum.DB_MAX_OUTPUT_PORT_TYPE
+carry <= carry.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ULA|AsubB:AsubB0|SomadorCompleto:SomadorCompleto3|MeioSomador:MeioSomador2
+a => sum.IN0
+a => carry.IN0
+b => sum.IN1
+b => carry.IN1
+sum <= sum.DB_MAX_OUTPUT_PORT_TYPE
+carry <= carry.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ULA|AxorB:AxorB0
+xorINPUTA[0] => xorS.IN0
+xorINPUTA[1] => xorS.IN0
+xorINPUTA[2] => xorS.IN0
+xorINPUTA[3] => xorS.IN0
+xorINPUTB[0] => xorS.IN1
+xorINPUTB[1] => xorS.IN1
+xorINPUTB[2] => xorS.IN1
+xorINPUTB[3] => xorS.IN1
+xorS[0] <= xorS.DB_MAX_OUTPUT_PORT_TYPE
+xorS[1] <= xorS.DB_MAX_OUTPUT_PORT_TYPE
+xorS[2] <= xorS.DB_MAX_OUTPUT_PORT_TYPE
+xorS[3] <= xorS.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ULA|leftA:leftA0
+leftA_INPUTA[0] => leftA_S[1].DATAIN
+leftA_INPUTA[1] => leftA_S[2].DATAIN
+leftA_INPUTA[2] => OverflowLEFTA.IN0
+leftA_INPUTA[2] => leftA_S[3].DATAIN
+leftA_INPUTA[3] => OverflowLEFTA.IN1
+lefA_INPUTB[0] => ~NO_FANOUT~
+lefA_INPUTB[1] => ~NO_FANOUT~
+lefA_INPUTB[2] => ~NO_FANOUT~
+lefA_INPUTB[3] => ~NO_FANOUT~
+leftA_S[0] <= <GND>
+leftA_S[1] <= leftA_INPUTA[0].DB_MAX_OUTPUT_PORT_TYPE
+leftA_S[2] <= leftA_INPUTA[1].DB_MAX_OUTPUT_PORT_TYPE
+leftA_S[3] <= leftA_INPUTA[2].DB_MAX_OUTPUT_PORT_TYPE
+OverflowLEFTA <= OverflowLEFTA.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ULA|leftB:leftB0
+leftB_INPUTA[0] => ~NO_FANOUT~
+leftB_INPUTA[1] => ~NO_FANOUT~
+leftB_INPUTA[2] => ~NO_FANOUT~
+leftB_INPUTA[3] => ~NO_FANOUT~
+leftB_INPUTB[0] => leftB_S[1].DATAIN
+leftB_INPUTB[1] => leftB_S[2].DATAIN
+leftB_INPUTB[2] => OverflowLEFTB.IN0
+leftB_INPUTB[2] => leftB_S[3].DATAIN
+leftB_INPUTB[3] => OverflowLEFTB.IN1
+leftB_S[0] <= <GND>
+leftB_S[1] <= leftB_INPUTB[0].DB_MAX_OUTPUT_PORT_TYPE
+leftB_S[2] <= leftB_INPUTB[1].DB_MAX_OUTPUT_PORT_TYPE
+leftB_S[3] <= leftB_INPUTB[2].DB_MAX_OUTPUT_PORT_TYPE
+OverflowLEFTB <= OverflowLEFTB.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ULA|notA:notA0
+notINPUTA[0] => notS[0].DATAIN
+notINPUTA[1] => notS[1].DATAIN
+notINPUTA[2] => notS[2].DATAIN
+notINPUTA[3] => notS[3].DATAIN
+notINPUTB[0] => ~NO_FANOUT~
+notINPUTB[1] => ~NO_FANOUT~
+notINPUTB[2] => ~NO_FANOUT~
+notINPUTB[3] => ~NO_FANOUT~
+notS[0] <= notINPUTA[0].DB_MAX_OUTPUT_PORT_TYPE
+notS[1] <= notINPUTA[1].DB_MAX_OUTPUT_PORT_TYPE
+notS[2] <= notINPUTA[2].DB_MAX_OUTPUT_PORT_TYPE
+notS[3] <= notINPUTA[3].DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ULA|notB:notB0
+notINPUTA[0] => ~NO_FANOUT~
+notINPUTA[1] => ~NO_FANOUT~
+notINPUTA[2] => ~NO_FANOUT~
+notINPUTA[3] => ~NO_FANOUT~
+notINPUTB[0] => notS[0].DATAIN
+notINPUTB[1] => notS[1].DATAIN
+notINPUTB[2] => notS[2].DATAIN
+notINPUTB[3] => notS[3].DATAIN
+notS[0] <= notINPUTB[0].DB_MAX_OUTPUT_PORT_TYPE
+notS[1] <= notINPUTB[1].DB_MAX_OUTPUT_PORT_TYPE
+notS[2] <= notINPUTB[2].DB_MAX_OUTPUT_PORT_TYPE
+notS[3] <= notINPUTB[3].DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ULA|SomadorBinario:SomadorBinario0
+A[0] => MeioSomador:MeioSomador1.a
+A[1] => SomadorCompleto:SomadorCompleto1.A
+A[2] => SomadorCompleto:SomadorCompleto2.A
+A[3] => SomadorCompleto:SomadorCompleto3.A
+B[0] => MeioSomador:MeioSomador1.b
+B[1] => SomadorCompleto:SomadorCompleto1.B
+B[2] => SomadorCompleto:SomadorCompleto2.B
+B[3] => SomadorCompleto:SomadorCompleto3.B
+S[0] <= MeioSomador:MeioSomador1.sum
+S[1] <= SomadorCompleto:SomadorCompleto1.Sout
+S[2] <= SomadorCompleto:SomadorCompleto2.Sout
+S[3] <= SomadorCompleto:SomadorCompleto3.Sout
+OverflowSoma <= OverflowSoma.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ULA|SomadorBinario:SomadorBinario0|MeioSomador:MeioSomador1
+a => sum.IN0
+a => carry.IN0
+b => sum.IN1
+b => carry.IN1
+sum <= sum.DB_MAX_OUTPUT_PORT_TYPE
+carry <= carry.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ULA|SomadorBinario:SomadorBinario0|SomadorCompleto:SomadorCompleto1
+A => MeioSomador:MeioSomador1.a
+B => MeioSomador:MeioSomador1.b
+Cin => MeioSomador:MeioSomador2.b
+Cout <= Cout.DB_MAX_OUTPUT_PORT_TYPE
+Sout <= MeioSomador:MeioSomador2.sum
+
+
+|ULA|SomadorBinario:SomadorBinario0|SomadorCompleto:SomadorCompleto1|MeioSomador:MeioSomador1
+a => sum.IN0
+a => carry.IN0
+b => sum.IN1
+b => carry.IN1
+sum <= sum.DB_MAX_OUTPUT_PORT_TYPE
+carry <= carry.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ULA|SomadorBinario:SomadorBinario0|SomadorCompleto:SomadorCompleto1|MeioSomador:MeioSomador2
+a => sum.IN0
+a => carry.IN0
+b => sum.IN1
+b => carry.IN1
+sum <= sum.DB_MAX_OUTPUT_PORT_TYPE
+carry <= carry.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ULA|SomadorBinario:SomadorBinario0|SomadorCompleto:SomadorCompleto2
+A => MeioSomador:MeioSomador1.a
+B => MeioSomador:MeioSomador1.b
+Cin => MeioSomador:MeioSomador2.b
+Cout <= Cout.DB_MAX_OUTPUT_PORT_TYPE
+Sout <= MeioSomador:MeioSomador2.sum
+
+
+|ULA|SomadorBinario:SomadorBinario0|SomadorCompleto:SomadorCompleto2|MeioSomador:MeioSomador1
+a => sum.IN0
+a => carry.IN0
+b => sum.IN1
+b => carry.IN1
+sum <= sum.DB_MAX_OUTPUT_PORT_TYPE
+carry <= carry.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ULA|SomadorBinario:SomadorBinario0|SomadorCompleto:SomadorCompleto2|MeioSomador:MeioSomador2
+a => sum.IN0
+a => carry.IN0
+b => sum.IN1
+b => carry.IN1
+sum <= sum.DB_MAX_OUTPUT_PORT_TYPE
+carry <= carry.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ULA|SomadorBinario:SomadorBinario0|SomadorCompleto:SomadorCompleto3
+A => MeioSomador:MeioSomador1.a
+B => MeioSomador:MeioSomador1.b
+Cin => MeioSomador:MeioSomador2.b
+Cout <= Cout.DB_MAX_OUTPUT_PORT_TYPE
+Sout <= MeioSomador:MeioSomador2.sum
+
+
+|ULA|SomadorBinario:SomadorBinario0|SomadorCompleto:SomadorCompleto3|MeioSomador:MeioSomador1
+a => sum.IN0
+a => carry.IN0
+b => sum.IN1
+b => carry.IN1
+sum <= sum.DB_MAX_OUTPUT_PORT_TYPE
+carry <= carry.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ULA|SomadorBinario:SomadorBinario0|SomadorCompleto:SomadorCompleto3|MeioSomador:MeioSomador2
+a => sum.IN0
+a => carry.IN0
+b => sum.IN1
+b => carry.IN1
+sum <= sum.DB_MAX_OUTPUT_PORT_TYPE
+carry <= carry.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ULA|AtimesB:AtimesB0
+AtimesB_INPUTA[0] => comb.IN0
+AtimesB_INPUTA[0] => comb.IN0
+AtimesB_INPUTA[0] => comb.IN0
+AtimesB_INPUTA[0] => AtimesB_S.IN0
+AtimesB_INPUTA[0] => OverflowAtimesB.IN0
+AtimesB_INPUTA[0] => OverflowAtimesB.IN1
+AtimesB_INPUTA[0] => OverflowAtimesB.IN1
+AtimesB_INPUTA[0] => OverflowAtimesB.IN1
+AtimesB_INPUTA[0] => OverflowAtimesB.IN1
+AtimesB_INPUTA[0] => OverflowAtimesB.IN1
+AtimesB_INPUTA[0] => OverflowAtimesB.IN1
+AtimesB_INPUTA[0] => OverflowAtimesB.IN1
+AtimesB_INPUTA[1] => comb.IN0
+AtimesB_INPUTA[1] => comb.IN0
+AtimesB_INPUTA[1] => comb.IN0
+AtimesB_INPUTA[1] => comb.IN0
+AtimesB_INPUTA[1] => OverflowAtimesB.IN1
+AtimesB_INPUTA[1] => OverflowAtimesB.IN1
+AtimesB_INPUTA[1] => OverflowAtimesB.IN1
+AtimesB_INPUTA[1] => OverflowAtimesB.IN1
+AtimesB_INPUTA[1] => OverflowAtimesB.IN1
+AtimesB_INPUTA[1] => OverflowAtimesB.IN1
+AtimesB_INPUTA[2] => comb.IN0
+AtimesB_INPUTA[2] => comb.IN0
+AtimesB_INPUTA[2] => comb.IN0
+AtimesB_INPUTA[2] => comb.IN0
+AtimesB_INPUTA[2] => OverflowAtimesB.IN0
+AtimesB_INPUTA[2] => OverflowAtimesB.IN0
+AtimesB_INPUTA[2] => OverflowAtimesB.IN0
+AtimesB_INPUTA[2] => OverflowAtimesB.IN0
+AtimesB_INPUTA[3] => comb.IN0
+AtimesB_INPUTA[3] => comb.IN0
+AtimesB_INPUTA[3] => comb.IN0
+AtimesB_INPUTA[3] => comb.IN0
+AtimesB_INPUTA[3] => OverflowAtimesB.IN1
+AtimesB_INPUTA[3] => OverflowAtimesB.IN1
+AtimesB_INPUTA[3] => OverflowAtimesB.IN1
+AtimesB_INPUTA[3] => OverflowAtimesB.IN1
+AtimesB_INPUTA[3] => OverflowAtimesB.IN0
+AtimesB_INPUTB[0] => comb.IN1
+AtimesB_INPUTB[0] => comb.IN1
+AtimesB_INPUTB[0] => comb.IN1
+AtimesB_INPUTB[0] => AtimesB_S.IN1
+AtimesB_INPUTB[0] => OverflowAtimesB.IN1
+AtimesB_INPUTB[0] => OverflowAtimesB.IN1
+AtimesB_INPUTB[0] => OverflowAtimesB.IN1
+AtimesB_INPUTB[0] => OverflowAtimesB.IN0
+AtimesB_INPUTB[0] => OverflowAtimesB.IN1
+AtimesB_INPUTB[0] => OverflowAtimesB.IN1
+AtimesB_INPUTB[0] => OverflowAtimesB.IN1
+AtimesB_INPUTB[0] => OverflowAtimesB.IN1
+AtimesB_INPUTB[0] => OverflowAtimesB.IN1
+AtimesB_INPUTB[0] => OverflowAtimesB.IN1
+AtimesB_INPUTB[1] => comb.IN1
+AtimesB_INPUTB[1] => comb.IN1
+AtimesB_INPUTB[1] => comb.IN1
+AtimesB_INPUTB[1] => comb.IN1
+AtimesB_INPUTB[1] => OverflowAtimesB.IN1
+AtimesB_INPUTB[1] => OverflowAtimesB.IN1
+AtimesB_INPUTB[1] => OverflowAtimesB.IN1
+AtimesB_INPUTB[1] => OverflowAtimesB.IN1
+AtimesB_INPUTB[1] => OverflowAtimesB.IN1
+AtimesB_INPUTB[1] => OverflowAtimesB.IN1
+AtimesB_INPUTB[1] => OverflowAtimesB.IN1
+AtimesB_INPUTB[1] => OverflowAtimesB.IN1
+AtimesB_INPUTB[1] => OverflowAtimesB.IN1
+AtimesB_INPUTB[1] => OverflowAtimesB.IN1
+AtimesB_INPUTB[1] => OverflowAtimesB.IN1
+AtimesB_INPUTB[1] => OverflowAtimesB.IN1
+AtimesB_INPUTB[2] => comb.IN1
+AtimesB_INPUTB[2] => comb.IN1
+AtimesB_INPUTB[2] => comb.IN1
+AtimesB_INPUTB[2] => comb.IN1
+AtimesB_INPUTB[2] => OverflowAtimesB.IN1
+AtimesB_INPUTB[2] => OverflowAtimesB.IN1
+AtimesB_INPUTB[2] => OverflowAtimesB.IN1
+AtimesB_INPUTB[2] => OverflowAtimesB.IN1
+AtimesB_INPUTB[2] => OverflowAtimesB.IN0
+AtimesB_INPUTB[2] => OverflowAtimesB.IN1
+AtimesB_INPUTB[2] => OverflowAtimesB.IN1
+AtimesB_INPUTB[2] => OverflowAtimesB.IN0
+AtimesB_INPUTB[2] => OverflowAtimesB.IN1
+AtimesB_INPUTB[2] => OverflowAtimesB.IN1
+AtimesB_INPUTB[2] => OverflowAtimesB.IN1
+AtimesB_INPUTB[2] => OverflowAtimesB.IN0
+AtimesB_INPUTB[3] => comb.IN1
+AtimesB_INPUTB[3] => comb.IN1
+AtimesB_INPUTB[3] => comb.IN1
+AtimesB_INPUTB[3] => comb.IN1
+AtimesB_INPUTB[3] => OverflowAtimesB.IN1
+AtimesB_INPUTB[3] => OverflowAtimesB.IN1
+AtimesB_INPUTB[3] => OverflowAtimesB.IN1
+AtimesB_INPUTB[3] => OverflowAtimesB.IN1
+AtimesB_INPUTB[3] => OverflowAtimesB.IN1
+AtimesB_INPUTB[3] => OverflowAtimesB.IN1
+AtimesB_INPUTB[3] => OverflowAtimesB.IN1
+AtimesB_INPUTB[3] => OverflowAtimesB.IN1
+AtimesB_INPUTB[3] => OverflowAtimesB.IN1
+AtimesB_INPUTB[3] => OverflowAtimesB.IN1
+AtimesB_INPUTB[3] => OverflowAtimesB.IN1
+AtimesB_INPUTB[3] => OverflowAtimesB.IN1
+AtimesB_S[0] <= AtimesB_S.DB_MAX_OUTPUT_PORT_TYPE
+AtimesB_S[1] <= SomadorBinario:SomadorBinario0.S[0]
+AtimesB_S[2] <= SomadorBinario:SomadorBinario1.S[0]
+AtimesB_S[3] <= SomadorBinario:SomadorBinario2.S[0]
+OverflowAtimesB <= OverflowAtimesB.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ULA|AtimesB:AtimesB0|SomadorBinario:SomadorBinario0
+A[0] => MeioSomador:MeioSomador1.a
+A[1] => SomadorCompleto:SomadorCompleto1.A
+A[2] => SomadorCompleto:SomadorCompleto2.A
+A[3] => SomadorCompleto:SomadorCompleto3.A
+B[0] => MeioSomador:MeioSomador1.b
+B[1] => SomadorCompleto:SomadorCompleto1.B
+B[2] => SomadorCompleto:SomadorCompleto2.B
+B[3] => SomadorCompleto:SomadorCompleto3.B
+S[0] <= MeioSomador:MeioSomador1.sum
+S[1] <= SomadorCompleto:SomadorCompleto1.Sout
+S[2] <= SomadorCompleto:SomadorCompleto2.Sout
+S[3] <= SomadorCompleto:SomadorCompleto3.Sout
+OverflowSoma <= OverflowSoma.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ULA|AtimesB:AtimesB0|SomadorBinario:SomadorBinario0|MeioSomador:MeioSomador1
+a => sum.IN0
+a => carry.IN0
+b => sum.IN1
+b => carry.IN1
+sum <= sum.DB_MAX_OUTPUT_PORT_TYPE
+carry <= carry.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ULA|AtimesB:AtimesB0|SomadorBinario:SomadorBinario0|SomadorCompleto:SomadorCompleto1
+A => MeioSomador:MeioSomador1.a
+B => MeioSomador:MeioSomador1.b
+Cin => MeioSomador:MeioSomador2.b
+Cout <= Cout.DB_MAX_OUTPUT_PORT_TYPE
+Sout <= MeioSomador:MeioSomador2.sum
+
+
+|ULA|AtimesB:AtimesB0|SomadorBinario:SomadorBinario0|SomadorCompleto:SomadorCompleto1|MeioSomador:MeioSomador1
+a => sum.IN0
+a => carry.IN0
+b => sum.IN1
+b => carry.IN1
+sum <= sum.DB_MAX_OUTPUT_PORT_TYPE
+carry <= carry.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ULA|AtimesB:AtimesB0|SomadorBinario:SomadorBinario0|SomadorCompleto:SomadorCompleto1|MeioSomador:MeioSomador2
+a => sum.IN0
+a => carry.IN0
+b => sum.IN1
+b => carry.IN1
+sum <= sum.DB_MAX_OUTPUT_PORT_TYPE
+carry <= carry.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ULA|AtimesB:AtimesB0|SomadorBinario:SomadorBinario0|SomadorCompleto:SomadorCompleto2
+A => MeioSomador:MeioSomador1.a
+B => MeioSomador:MeioSomador1.b
+Cin => MeioSomador:MeioSomador2.b
+Cout <= Cout.DB_MAX_OUTPUT_PORT_TYPE
+Sout <= MeioSomador:MeioSomador2.sum
+
+
+|ULA|AtimesB:AtimesB0|SomadorBinario:SomadorBinario0|SomadorCompleto:SomadorCompleto2|MeioSomador:MeioSomador1
+a => sum.IN0
+a => carry.IN0
+b => sum.IN1
+b => carry.IN1
+sum <= sum.DB_MAX_OUTPUT_PORT_TYPE
+carry <= carry.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ULA|AtimesB:AtimesB0|SomadorBinario:SomadorBinario0|SomadorCompleto:SomadorCompleto2|MeioSomador:MeioSomador2
+a => sum.IN0
+a => carry.IN0
+b => sum.IN1
+b => carry.IN1
+sum <= sum.DB_MAX_OUTPUT_PORT_TYPE
+carry <= carry.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ULA|AtimesB:AtimesB0|SomadorBinario:SomadorBinario0|SomadorCompleto:SomadorCompleto3
+A => MeioSomador:MeioSomador1.a
+B => MeioSomador:MeioSomador1.b
+Cin => MeioSomador:MeioSomador2.b
+Cout <= Cout.DB_MAX_OUTPUT_PORT_TYPE
+Sout <= MeioSomador:MeioSomador2.sum
+
+
+|ULA|AtimesB:AtimesB0|SomadorBinario:SomadorBinario0|SomadorCompleto:SomadorCompleto3|MeioSomador:MeioSomador1
+a => sum.IN0
+a => carry.IN0
+b => sum.IN1
+b => carry.IN1
+sum <= sum.DB_MAX_OUTPUT_PORT_TYPE
+carry <= carry.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ULA|AtimesB:AtimesB0|SomadorBinario:SomadorBinario0|SomadorCompleto:SomadorCompleto3|MeioSomador:MeioSomador2
+a => sum.IN0
+a => carry.IN0
+b => sum.IN1
+b => carry.IN1
+sum <= sum.DB_MAX_OUTPUT_PORT_TYPE
+carry <= carry.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ULA|AtimesB:AtimesB0|SomadorBinario:SomadorBinario1
+A[0] => MeioSomador:MeioSomador1.a
+A[1] => SomadorCompleto:SomadorCompleto1.A
+A[2] => SomadorCompleto:SomadorCompleto2.A
+A[3] => SomadorCompleto:SomadorCompleto3.A
+B[0] => MeioSomador:MeioSomador1.b
+B[1] => SomadorCompleto:SomadorCompleto1.B
+B[2] => SomadorCompleto:SomadorCompleto2.B
+B[3] => SomadorCompleto:SomadorCompleto3.B
+S[0] <= MeioSomador:MeioSomador1.sum
+S[1] <= SomadorCompleto:SomadorCompleto1.Sout
+S[2] <= SomadorCompleto:SomadorCompleto2.Sout
+S[3] <= SomadorCompleto:SomadorCompleto3.Sout
+OverflowSoma <= OverflowSoma.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ULA|AtimesB:AtimesB0|SomadorBinario:SomadorBinario1|MeioSomador:MeioSomador1
+a => sum.IN0
+a => carry.IN0
+b => sum.IN1
+b => carry.IN1
+sum <= sum.DB_MAX_OUTPUT_PORT_TYPE
+carry <= carry.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ULA|AtimesB:AtimesB0|SomadorBinario:SomadorBinario1|SomadorCompleto:SomadorCompleto1
+A => MeioSomador:MeioSomador1.a
+B => MeioSomador:MeioSomador1.b
+Cin => MeioSomador:MeioSomador2.b
+Cout <= Cout.DB_MAX_OUTPUT_PORT_TYPE
+Sout <= MeioSomador:MeioSomador2.sum
+
+
+|ULA|AtimesB:AtimesB0|SomadorBinario:SomadorBinario1|SomadorCompleto:SomadorCompleto1|MeioSomador:MeioSomador1
+a => sum.IN0
+a => carry.IN0
+b => sum.IN1
+b => carry.IN1
+sum <= sum.DB_MAX_OUTPUT_PORT_TYPE
+carry <= carry.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ULA|AtimesB:AtimesB0|SomadorBinario:SomadorBinario1|SomadorCompleto:SomadorCompleto1|MeioSomador:MeioSomador2
+a => sum.IN0
+a => carry.IN0
+b => sum.IN1
+b => carry.IN1
+sum <= sum.DB_MAX_OUTPUT_PORT_TYPE
+carry <= carry.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ULA|AtimesB:AtimesB0|SomadorBinario:SomadorBinario1|SomadorCompleto:SomadorCompleto2
+A => MeioSomador:MeioSomador1.a
+B => MeioSomador:MeioSomador1.b
+Cin => MeioSomador:MeioSomador2.b
+Cout <= Cout.DB_MAX_OUTPUT_PORT_TYPE
+Sout <= MeioSomador:MeioSomador2.sum
+
+
+|ULA|AtimesB:AtimesB0|SomadorBinario:SomadorBinario1|SomadorCompleto:SomadorCompleto2|MeioSomador:MeioSomador1
+a => sum.IN0
+a => carry.IN0
+b => sum.IN1
+b => carry.IN1
+sum <= sum.DB_MAX_OUTPUT_PORT_TYPE
+carry <= carry.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ULA|AtimesB:AtimesB0|SomadorBinario:SomadorBinario1|SomadorCompleto:SomadorCompleto2|MeioSomador:MeioSomador2
+a => sum.IN0
+a => carry.IN0
+b => sum.IN1
+b => carry.IN1
+sum <= sum.DB_MAX_OUTPUT_PORT_TYPE
+carry <= carry.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ULA|AtimesB:AtimesB0|SomadorBinario:SomadorBinario1|SomadorCompleto:SomadorCompleto3
+A => MeioSomador:MeioSomador1.a
+B => MeioSomador:MeioSomador1.b
+Cin => MeioSomador:MeioSomador2.b
+Cout <= Cout.DB_MAX_OUTPUT_PORT_TYPE
+Sout <= MeioSomador:MeioSomador2.sum
+
+
+|ULA|AtimesB:AtimesB0|SomadorBinario:SomadorBinario1|SomadorCompleto:SomadorCompleto3|MeioSomador:MeioSomador1
+a => sum.IN0
+a => carry.IN0
+b => sum.IN1
+b => carry.IN1
+sum <= sum.DB_MAX_OUTPUT_PORT_TYPE
+carry <= carry.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ULA|AtimesB:AtimesB0|SomadorBinario:SomadorBinario1|SomadorCompleto:SomadorCompleto3|MeioSomador:MeioSomador2
+a => sum.IN0
+a => carry.IN0
+b => sum.IN1
+b => carry.IN1
+sum <= sum.DB_MAX_OUTPUT_PORT_TYPE
+carry <= carry.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ULA|AtimesB:AtimesB0|SomadorBinario:SomadorBinario2
+A[0] => MeioSomador:MeioSomador1.a
+A[1] => SomadorCompleto:SomadorCompleto1.A
+A[2] => SomadorCompleto:SomadorCompleto2.A
+A[3] => SomadorCompleto:SomadorCompleto3.A
+B[0] => MeioSomador:MeioSomador1.b
+B[1] => SomadorCompleto:SomadorCompleto1.B
+B[2] => SomadorCompleto:SomadorCompleto2.B
+B[3] => SomadorCompleto:SomadorCompleto3.B
+S[0] <= MeioSomador:MeioSomador1.sum
+S[1] <= SomadorCompleto:SomadorCompleto1.Sout
+S[2] <= SomadorCompleto:SomadorCompleto2.Sout
+S[3] <= SomadorCompleto:SomadorCompleto3.Sout
+OverflowSoma <= OverflowSoma.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ULA|AtimesB:AtimesB0|SomadorBinario:SomadorBinario2|MeioSomador:MeioSomador1
+a => sum.IN0
+a => carry.IN0
+b => sum.IN1
+b => carry.IN1
+sum <= sum.DB_MAX_OUTPUT_PORT_TYPE
+carry <= carry.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ULA|AtimesB:AtimesB0|SomadorBinario:SomadorBinario2|SomadorCompleto:SomadorCompleto1
+A => MeioSomador:MeioSomador1.a
+B => MeioSomador:MeioSomador1.b
+Cin => MeioSomador:MeioSomador2.b
+Cout <= Cout.DB_MAX_OUTPUT_PORT_TYPE
+Sout <= MeioSomador:MeioSomador2.sum
+
+
+|ULA|AtimesB:AtimesB0|SomadorBinario:SomadorBinario2|SomadorCompleto:SomadorCompleto1|MeioSomador:MeioSomador1
+a => sum.IN0
+a => carry.IN0
+b => sum.IN1
+b => carry.IN1
+sum <= sum.DB_MAX_OUTPUT_PORT_TYPE
+carry <= carry.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ULA|AtimesB:AtimesB0|SomadorBinario:SomadorBinario2|SomadorCompleto:SomadorCompleto1|MeioSomador:MeioSomador2
+a => sum.IN0
+a => carry.IN0
+b => sum.IN1
+b => carry.IN1
+sum <= sum.DB_MAX_OUTPUT_PORT_TYPE
+carry <= carry.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ULA|AtimesB:AtimesB0|SomadorBinario:SomadorBinario2|SomadorCompleto:SomadorCompleto2
+A => MeioSomador:MeioSomador1.a
+B => MeioSomador:MeioSomador1.b
+Cin => MeioSomador:MeioSomador2.b
+Cout <= Cout.DB_MAX_OUTPUT_PORT_TYPE
+Sout <= MeioSomador:MeioSomador2.sum
+
+
+|ULA|AtimesB:AtimesB0|SomadorBinario:SomadorBinario2|SomadorCompleto:SomadorCompleto2|MeioSomador:MeioSomador1
+a => sum.IN0
+a => carry.IN0
+b => sum.IN1
+b => carry.IN1
+sum <= sum.DB_MAX_OUTPUT_PORT_TYPE
+carry <= carry.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ULA|AtimesB:AtimesB0|SomadorBinario:SomadorBinario2|SomadorCompleto:SomadorCompleto2|MeioSomador:MeioSomador2
+a => sum.IN0
+a => carry.IN0
+b => sum.IN1
+b => carry.IN1
+sum <= sum.DB_MAX_OUTPUT_PORT_TYPE
+carry <= carry.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ULA|AtimesB:AtimesB0|SomadorBinario:SomadorBinario2|SomadorCompleto:SomadorCompleto3
+A => MeioSomador:MeioSomador1.a
+B => MeioSomador:MeioSomador1.b
+Cin => MeioSomador:MeioSomador2.b
+Cout <= Cout.DB_MAX_OUTPUT_PORT_TYPE
+Sout <= MeioSomador:MeioSomador2.sum
+
+
+|ULA|AtimesB:AtimesB0|SomadorBinario:SomadorBinario2|SomadorCompleto:SomadorCompleto3|MeioSomador:MeioSomador1
+a => sum.IN0
+a => carry.IN0
+b => sum.IN1
+b => carry.IN1
+sum <= sum.DB_MAX_OUTPUT_PORT_TYPE
+carry <= carry.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ULA|AtimesB:AtimesB0|SomadorBinario:SomadorBinario2|SomadorCompleto:SomadorCompleto3|MeioSomador:MeioSomador2
+a => sum.IN0
+a => carry.IN0
+b => sum.IN1
+b => carry.IN1
+sum <= sum.DB_MAX_OUTPUT_PORT_TYPE
+carry <= carry.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ULA|multiplex:multiplex0
+controle[0] => Mux0.IN9
+controle[0] => Mux1.IN9
+controle[0] => Mux2.IN9
+controle[0] => Mux3.IN9
+controle[1] => Mux0.IN8
+controle[1] => Mux1.IN8
+controle[1] => Mux2.IN8
+controle[1] => Mux3.IN8
+controle[2] => Mux0.IN7
+controle[2] => Mux1.IN7
+controle[2] => Mux2.IN7
+controle[2] => Mux3.IN7
+controle[3] => Mux0.IN6
+controle[3] => Mux1.IN6
+controle[3] => Mux2.IN6
+controle[3] => Mux3.IN6
+multiplexSomadorBinario[0] => Mux3.IN10
+multiplexSomadorBinario[1] => Mux2.IN10
+multiplexSomadorBinario[2] => Mux1.IN10
+multiplexSomadorBinario[3] => Mux0.IN10
+multiplexAsubB[0] => Mux3.IN11
+multiplexAsubB[1] => Mux2.IN11
+multiplexAsubB[2] => Mux1.IN11
+multiplexAsubB[3] => Mux0.IN11
+multiplexAandB[0] => Mux3.IN12
+multiplexAandB[1] => Mux2.IN12
+multiplexAandB[2] => Mux1.IN12
+multiplexAandB[3] => Mux0.IN12
+multiplexAorB[0] => Mux3.IN13
+multiplexAorB[1] => Mux2.IN13
+multiplexAorB[2] => Mux1.IN13
+multiplexAorB[3] => Mux0.IN13
+multiplexAxorB[0] => Mux3.IN14
+multiplexAxorB[1] => Mux2.IN14
+multiplexAxorB[2] => Mux1.IN14
+multiplexAxorB[3] => Mux0.IN14
+multiplexleftA[0] => Mux3.IN15
+multiplexleftA[1] => Mux2.IN15
+multiplexleftA[2] => Mux1.IN15
+multiplexleftA[3] => Mux0.IN15
+multiplexleftB[0] => Mux3.IN16
+multiplexleftB[1] => Mux2.IN16
+multiplexleftB[2] => Mux1.IN16
+multiplexleftB[3] => Mux0.IN16
+multiplexnotA[0] => Mux3.IN17
+multiplexnotA[1] => Mux2.IN17
+multiplexnotA[2] => Mux1.IN17
+multiplexnotA[3] => Mux0.IN17
+multiplexnotB[0] => Mux3.IN18
+multiplexnotB[1] => Mux2.IN18
+multiplexnotB[2] => Mux1.IN18
+multiplexnotB[3] => Mux0.IN18
+multiplexAtimesB[0] => Mux3.IN19
+multiplexAtimesB[1] => Mux2.IN19
+multiplexAtimesB[2] => Mux1.IN19
+multiplexAtimesB[3] => Mux0.IN19
+multiplexS[0] <= Mux3.DB_MAX_OUTPUT_PORT_TYPE
+multiplexS[1] <= Mux2.DB_MAX_OUTPUT_PORT_TYPE
+multiplexS[2] <= Mux1.DB_MAX_OUTPUT_PORT_TYPE
+multiplexS[3] <= Mux0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ULA|multiplex2:multiplex02
+controle[0] => Mux0.IN9
+controle[1] => Mux0.IN8
+controle[2] => Mux0.IN7
+controle[3] => Mux0.IN6
+multiplex2SomadorBinario => Mux0.IN10
+multiplex2AsubB => Mux0.IN11
+multiplex2AandB => Mux0.IN12
+multiplex2AorB => Mux0.IN13
+multiplex2AxorB => Mux0.IN14
+multiplex2leftA => Mux0.IN15
+multiplex2leftB => Mux0.IN16
+multiplex2notA => Mux0.IN17
+multiplex2notB => Mux0.IN18
+multiplex2AtimesB => Mux0.IN19
+multiplex2S <= Mux0.DB_MAX_OUTPUT_PORT_TYPE
+
+
