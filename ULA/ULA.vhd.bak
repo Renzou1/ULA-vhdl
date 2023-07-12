@@ -1,0 +1,19 @@
+ENTITY ULA IS
+	PORT(
+	A: in bit_vector(3 downto 0);
+	B: in bit_vector(3 downto 0);
+	Controle: in bit_vector(3 downto 0);
+	
+	S: out bit_vector(3 downto 0);
+	Overflow: out bit;
+	Zero: out bit;
+	Negativo: out bit
+	
+	);
+END ULA;
+
+architecture arch_ULA of ULA IS
+
+BEGIN
+	
+END arch_ULA;

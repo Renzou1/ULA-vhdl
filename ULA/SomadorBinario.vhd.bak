@@ -1,0 +1,36 @@
+ENTITY SomadorBinario IS
+	port(
+	A bit_vector (3 downto 0);
+	B bit_vector (3 downto 0);
+	S bit_vector (3 downto 0)
+		);
+END SomadorBinario;
+architecture arch_SomadorBinario OF SomadorBinario IS
+SIGNAL CarrySinal, CarrySinal2, CarrySinal3, CarrySinal4, Cout1, Cout2: bit; 
+COMPONENT MeioSomador
+	PORT(
+		a, b: in bit;
+		sum, carry: out bit
+	);
+END COMPONENT;
+COMPONENT SomadorCompleto
+	PORT(
+	MeioSomador1: MeioSomador
+		port map(a => A, b => B, sum => carrySinal, carry => Cout1); 
+	MeioSomador2: MeioSomador
+		port map(a => carrySinal, b => Cin, sum => Sout, carry => Cout2);
+	);
+END COMPONENT;
+
+BEGIN
+	MeioSomador: MeioSomador
+		port map(a => A, b => B, sum => carrySinal, carry => Cout1); 
+	SomadorCompleto1: SomadorCompleto
+		port map(A => A(0),B	=> B(0),carrySinal => CarrySinal1, );
+	SomadorCompleto2: SomadorCompleto
+		port map();
+	SomadorCompleto3: SomadorCompleto
+		port map();
+		
+		Cout <= Cout1 or Cout2;
+END arch_SomadorBinario;

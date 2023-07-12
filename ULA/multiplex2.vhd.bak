@@ -1,0 +1,35 @@
+ENTITY multiplex IS
+	port(
+		controle: in bit_vector (3 downto 0);
+		multiplexSomadorBinario: in bit;
+		multiplexAsubB: in bit;
+		multiplexAandB: in bit;
+		multiplexAorB: in bit;
+		multiplexAxorB: in bit;
+		multiplexleftA: in bit;
+		multiplexleftB: in bit;
+		multiplexnotA: in bit;
+		multiplexnotB: in bit;
+		multiplexS: out bit
+		
+		);
+		
+END multiplex;
+
+architecture arch_multiplex of multiplex is
+
+BEGIN
+	WITH controle SELECT
+		multiplexS <=
+			multiplexAandB WHEN "0001",
+			multiplexAorB WHEN "0010",
+			multiplexAsubB WHEN "0011",
+			multiplexAxorB WHEN "0100",
+			multiplexleftA WHEN "0101",
+			multiplexleftB WHEN "0110",
+			multiplexnotA WHEN "0111",
+			multiplexnotB WHEN "1000",
+			multiplexSomadorBinario WHEN "1001",
+			"0000" WHEN OTHERS;
+			 
+END arch_multiplex;

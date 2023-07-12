@@ -1,0 +1,16 @@
+ENTITY notB IS
+	Port(
+		notINPUTA: in bit_vector (3 downto 0);
+		notINPUTB: in bit_vector (3 downto 0);
+		
+		notS: out bit_vector (3 downto 0)
+	);
+END notB;
+
+architecture arch_notB of notB IS
+BEGIN
+	notS(0) <= not notINPUTB(0);
+	notS(1) <= not notINPUTB(1);
+	notS(2) <= not notINPUTB(2);
+	notS(3) <= not notINPUTB(3);
+END arch_notB;
